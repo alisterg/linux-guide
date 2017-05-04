@@ -10,7 +10,7 @@
 <head>
     <meta name="description" content="Linux and Bash tutorials for beginners to Linux." />
     <meta name="keywords" content="linux tutorial, linux command, command line, bash, linux" />
-    <meta name="author" content="A. Holland" />
+    <meta name="author" content="AlisterG" />
     <meta itemprop="name" content="World of Linux" />
     <meta itemprop="description" content="Linux and Bash tutorials for beginners to Linux." />
     
