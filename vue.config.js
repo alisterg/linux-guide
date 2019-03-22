@@ -1,4 +1,4 @@
 
-// module.exports = {
-//   publicPath: '<WorldOfLinux>'
-// }
+module.exports = {
+  publicPath: '<WorldOfLinux>'
+}
