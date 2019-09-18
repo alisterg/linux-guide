@@ -6,10 +6,10 @@
         <span class="worldof">Of</span>
         <span class="worldlinux">Linux</span>
       </div>
-      <router-link to="/">Home</router-link>
-      <router-link to="/learnlinux">Learn Linux</router-link>
-      <router-link to="/getlinux">Get Linux</router-link>
-      <router-link to="/cheatsheet">Cheat Sheet</router-link>
+      <router-link class="navlink" to="/">Home</router-link>
+      <router-link class="navlink" to="/learnlinux">Learn Linux</router-link>
+      <router-link class="navlink" to="/getlinux">Get Linux</router-link>
+      <router-link class="navlink" to="/cheatsheet">Cheat Sheet</router-link>
     </div>
 
     <router-view/>

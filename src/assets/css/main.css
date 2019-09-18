@@ -303,34 +303,66 @@ table{
 }
 
 /* For mobiles */
-/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5),*/
-/*only screen and (min--moz-device-pixel-ratio: 1.5),*/
-/*only screen and (-o-device-pixel-ratio: 3/2),*/
-/*only screen and (min-device-pixel-ratio: 1.5)*/
-/*only screen and (max-width: 700px) {*/
-    /*.contents{*/
-    /**/
-    /*}*/
-    /*.contents p.code{*/
-        /*max-width:none;*/
-    /*}*/
-    /*table, .chapter, .footer{*/
-        /*font-size:40px;*/
-    /*}*/
-    /*.logosmall {*/
-        /*display:inline;*/
-    /*}*/
-    /*.logo{*/
-        /*display:none;*/
-    /*}*/
-    /*.previous, .index, .next{*/
-        /*position:static;*/
-        /*float:left;*/
-        /*clear:none;*/
-        /*margin:10px 0 0 10px;*/
-    /*}*/
-    /*.header{*/
-        /*font-size: 50px;*/
-        /*padding-left:0;*/
-    /*}*/
-/*}*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (max-width: 700px) {
+    
+    .header {
+        font-size: 45px;
+        padding-left:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header a:link,
+    .header a:visited {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-transform:lowercase;
+        color: white;
+        transition: .25s;
+        font-size: 0.4em;
+    }
+    a.navlink {
+        font-size: 0.4em;
+    }
+    table, .chapter, .footer {
+        font-size:1em;
+    }
+
+    .contents p.code{
+        max-width:none;
+    }
+    .logosmall {
+        display:inline;
+    }
+    .logo{
+        display:none;
+    }
+    .previous, .index, .next{
+        position:static;
+        float:left;
+        clear:none;
+        margin:10px 0 0 10px;
+    }
+
+    .left, .right {
+        width: auto;
+        float: none;
+        clear: none;
+        margin: 20px;
+    }
+
+    #note1 {
+        margin: 0 20px;
+    }
+    .flex-distro {
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+}
+

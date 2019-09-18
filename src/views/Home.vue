@@ -18,24 +18,23 @@
         <router-link to="getlinux" class="link">Get Linux</router-link>
       </div>
 
-      <div class="left">
-        <div id="prompt"></div>
-        <router-link to="learnlinux" class="link">Learn Linux</router-link>
-      </div>
-
       <div class="right">
         <h4>Why Linux?</h4>
         <p>Linux is highly customizable due to its modular design. There are
           many tools available
           to make your system your own.</p><br/>
         <p>Windows viruses do not work on Linux.</p><br/>
-        <p>The LAMP stack is the platform of choice for programming robust,
-          modern web applications.</p>
+        <p>Linux powers a large portion of the Internet's Web Servers. You may find yourself maintaining one some day!</p>
+      </div>
+
+      <div class="left">
+        <div id="prompt"></div>
+        <router-link to="learnlinux" class="link">Learn Linux</router-link>
       </div>
 
     </div>
 
-    <p id="note1" style="margin-left:auto; margin-right:auto;font-size:0.95em;">
+    <p id="note1">
       <sup>1</sup>Technically Linux is the kernel - the
       core of the operating system which provides an interface between user
       applications and hardware.

@@ -48,7 +48,12 @@ All rights reserved.
     background-position: center top;
     background-repeat: no-repeat;
 }
-.distrolink{
+.flex-distro {
+    display: flex;
+
+}
+
+.distrolink {
     display:block;
     border:1px solid #ccc;
     width: 280px;
@@ -56,8 +61,7 @@ All rights reserved.
     height:320px;
     color:inherit;
     text-align:center;
-    float:left;
-    margin: 20px 10px 20px 10px;
+    margin: 20px auto;
     box-sizing:border-box;
 }
 .distro_item{
@@ -100,7 +104,6 @@ All rights reserved.
     clear: left;
 }
 .index_header{
-    float:right;
     width:100%;
 }
 .index_header h2{
