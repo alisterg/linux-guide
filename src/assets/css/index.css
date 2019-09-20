@@ -3,9 +3,8 @@ Copyright WorldOfLinux.org 2016
 All rights reserved.
 */
 
-.container{
+.container {
     max-width: 950px;
-    margin: 50px auto;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: normal;
     overflow: auto;
@@ -85,24 +84,16 @@ All rights reserved.
 .distrolink:hover{
     border-bottom:5px solid #eb1946;
 }
-.right{
+.left, .right {
     width: 45%;
+    margin: 10px 20px 50px;
+}
+/* .right{
     margin-left: 2.5%;
-    margin-top:20px;
-    margin-bottom:20px;
-    float:right;
-    height: 300px;
-    clear:right;
 }
 .left{
-    width: 45%;
     margin-right: 2.5%;
-    margin-top:20px;
-    margin-bottom:20px;
-    float: left;
-    height:300px;
-    clear: left;
-}
+} */
 .index_header{
     width:100%;
 }
