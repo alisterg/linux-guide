@@ -4,7 +4,7 @@ All rights reserved.
 */
 
 .container {
-    max-width: 950px;
+    width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: normal;
     overflow: auto;
@@ -49,15 +49,17 @@ All rights reserved.
 }
 .flex-distro {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .distrolink {
     display:block;
     border:1px solid #ccc;
     width: 280px;
+    min-width: 280px;
     padding:30px;
     height:320px;
+    min-height: 320px;
     color:inherit;
     text-align:center;
     margin: 20px auto;
